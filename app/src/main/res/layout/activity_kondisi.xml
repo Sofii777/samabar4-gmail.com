@@ -15,4 +15,38 @@
         android:text="Kondisi saya saat ini"
         android:textSize="24sp" />
 
+    <ImageView
+        android:id="@+id/imgKondisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtKeterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="update terakhir" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnKondisiSekitar"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="Lihat kondisi di sekitar saya" />
+
+        <Button
+            android:id="@+id/btnUpdateStatus"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="Update status kesehatan saya" />
+    </LinearLayout>
+
 </LinearLayout>

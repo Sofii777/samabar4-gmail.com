@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Kondisi"></activity>
+        <activity android:name=".Darurat"></activity>
+        <activity android:name=".TerimaKasih" />
+        <activity android:name=".UpdateStatus" />
+        <activity android:name=".Kondisi" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

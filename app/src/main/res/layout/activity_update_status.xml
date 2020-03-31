@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateStatus">
+
+    <TextView
+        android:id="@+id/txtBack1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="< Kembali"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Apakah anda mengalami gejala sbb?" />
+
+    <CheckBox
+        android:id="@+id/checkBersin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bersin-bersin" />
+
+    <CheckBox
+        android:id="@+id/checkBatuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="batuk kering" />
+
+    <CheckBox
+        android:id="@+id/checkNyeri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nyeri otot, kelelahan" />
+
+    <CheckBox
+        android:id="@+id/checkDemam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="demam/meriang" />
+
+    <CheckBox
+        android:id="@+id/checkSulitNafas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kesulitan bernafas" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update status kesehatan saya" />
+</LinearLayout>
