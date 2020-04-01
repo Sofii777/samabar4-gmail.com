@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Darurat"></activity>
+        <activity android:name=".KondisiPenggunaLain"></activity>
+        <activity android:name=".Darurat" />
         <activity android:name=".TerimaKasih" />
         <activity android:name=".UpdateStatus" />
         <activity android:name=".Kondisi" />

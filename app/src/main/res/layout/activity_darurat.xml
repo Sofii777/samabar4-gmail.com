@@ -20,8 +20,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:gravity="center"
-        android:text="Terima Kasih"
+        android:text="DARURAT!!!"
         android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hal yang perlu anda lakukan :" />
 
     <TextView
         android:id="@+id/txxtUcapan1"
@@ -43,6 +49,6 @@
         android:layout_marginTop="30dp"
         android:layout_marginRight="50dp"
         android:gravity="center"
-        android:text="TUTUP" />
+        android:text="Telp 112" />
 
 </LinearLayout>
