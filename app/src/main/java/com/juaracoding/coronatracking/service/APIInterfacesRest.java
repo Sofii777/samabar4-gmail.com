@@ -7,6 +7,8 @@ package com.juaracoding.coronatracking.service;
 
 
 
+import com.juaracoding.coronatracking.model.covid19app.TrackingCorona;
+
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
 import retrofit2.Call;
@@ -33,23 +35,25 @@ public interface APIInterfacesRest {
 //    @GET("genre/all")
 //    Call<DataGenre> getGenreMovie();
 //
-//    @Multipart
-//    @POST("moviedb/add")
-//    Call<DaftarMovie> postDataMovie(
-//
-//            @Part("judul") RequestBody judul,
-//            @Part("rating") RequestBody rating,
-//            @Part("genre") RequestBody genre,
-//            @Part("directedby") RequestBody directedby,
-//            @Part("writenby") RequestBody writenby,
-//            @Part("intheater") RequestBody intheater,
-//            @Part("studio") RequestBody studio,
-//            @Part MultipartBody.Part img1,
-//            @Part MultipartBody.Part img2,
-//            @Part MultipartBody.Part img3
-//
-//
-//    );
+    @Multipart
+    @POST("covid/add")
+    Call<TrackingCorona> postPengguna(
+
+            @Part("username") RequestBody username,
+            @Part("latitude") RequestBody latitude,
+            @Part("longitude") RequestBody longitude,
+            @Part("timestamp") RequestBody timestamp,
+            @Part("status") RequestBody status,
+            @Part("nama_lengkap") RequestBody nama,
+            @Part("umur") RequestBody umur,
+            @Part("jenis_kelamin") RequestBody gender,
+            @Part("kota_domisili") RequestBody domisili,
+            @Part("no_telepon") RequestBody telpon,
+            @Part("kondisi") RequestBody kondisi,
+            @Part MultipartBody.Part picture
+
+
+    );
 
 
  //   @GET("weather")
