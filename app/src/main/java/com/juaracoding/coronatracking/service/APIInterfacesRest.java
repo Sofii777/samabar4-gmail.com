@@ -49,8 +49,7 @@ public interface APIInterfacesRest {
             @Part("jenis_kelamin") RequestBody gender,
             @Part("kota_domisili") RequestBody domisili,
             @Part("no_telepon") RequestBody telpon,
-            @Part("kondisi") RequestBody kondisi,
-            @Part MultipartBody.Part picture
+            @Part("kondisi") RequestBody kondisi
 
 
     );
